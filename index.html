@@ -447,7 +447,7 @@ async function claude(messages,system,maxTokens){
   if(!S.apiKey) throw new Error('Entrez votre clé API Anthropic en haut.');
   var r=await fetch('https://api.anthropic.com/v1/messages',{
     method:'POST',
-    headers:{'Content-Type':'application/json','x-api-key':S.apiKey,'anthropic-version':'2023-06-01','anthropic-dangerous-allow-browser':'true'},
+    headers:{'Content-Type':'application/json','x-api-key':S.apiKey,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
     body:JSON.stringify({model:'claude-haiku-4-5-20251001',max_tokens:maxTokens,system:system||'',messages:messages})
   });
   if(!r.ok){var e=await r.json().catch(()=>({}));throw new Error(e.error&&e.error.message?e.error.message:'API Error '+r.status);}
