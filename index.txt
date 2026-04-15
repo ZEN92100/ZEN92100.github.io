@@ -1,0 +1,16 @@
+
+CLÉ API
+
+
+♞ MON CAVALIER
+⊕ SCANNER
+◈ CV OPTIMISÉ
+◎ CANDIDATURES
+◉ MODE D'EMPLOI
+♞ Collez le texte de votre CV ci-dessous. Partez obligatoirement du modèle Unveil disponible dans l'onglet Mode d'emploi — il est optimisé ATS.
+⚠ Format ATS obligatoire : N'utilisez pas de CV graphique avec colonnes, tableaux ou polices décoratives. Un CV visuellement sophistiqué peut perdre jusqu'à 40% de son score ATS. Le modèle Unveil (Calibri, structure linéaire) est la combinaison optimale.
+VOTRE CV — TEXTE
+ANALYSER MON PROFIL
+PROFIL DÉTECTÉ
+◎
+ANALYSEZ VOTRE CV POUR VOIR VOTRE PROFIL
